@@ -1,0 +1,26 @@
+.skill-header h1{
+    color: #22d1ee;
+ }
+ .skills{
+    text-align: justify;
+    width: 40%;
+    height: 50%;
+    margin-left: 80px;
+    box-shadow: 1px 1px 10px #22d1ee;
+    
+    transform: skew(-15deg);
+
+}
+.skills p{
+    width: 80%;
+    font-size: 24px;
+    padding: 60px 20px 20px 60px;
+    transform: skew(15deg);
+}
+.skill-header{
+    font-size: 50px;
+    color: #22d1ee;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+}

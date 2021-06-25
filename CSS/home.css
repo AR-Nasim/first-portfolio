@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Original Surfer', cursive; */
+    font-family: 'Federo', sans-serif;
+    color: #0e153a;
+}
+#homepage
+{
+    background-color: #e2f3f5;
+}
+.container{
+    width: 1536px;
+    height: 750px;
+    background-color: aquamarine;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    overflow: hidden;
+}
+.main{
+    width: 300%;
+    height: 300%;
+    background-color: transparent;
+    padding-top: 60px;
+}
+.page{
+    width: 1536px;
+    height: 750px;
+    float: left;
+    background-color: #e2f3f5;
+}
+.letter{
+    color: #22d1ee;
+    font-size: 80px;
+    text-shadow: 1px 1px 5px rgb(72, 80, 92);
+    border-radius: 5px;
+}
+
+.letter:hover{
+
+}
+.home-article{
+    margin-top: 0;
+}
+.page-con{
+    height: 80%;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+.home-article ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.home-article ul li{
+    font-size: 35px;
+}
+.page-con h1{
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    letter-spacing: 5px;
+}
+.label{
+    margin-top: 50px;
+}
+.label label{
+    padding: 10px 30px;
+    
+    border-radius: 15px;
+    transition-duration: .4s;
+    font-size: 24px;
+    border: 2px solid #0e153a;
+    color: #0e153a;
+    background-color: #e2f3f5;
+}
+.label label:hover{
+    background-color: #22d1ee;
+    border: 2px solid #22d1ee ;
+    color: #0e153a;
+}
+#bg1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 30%;
+}
+
+
+

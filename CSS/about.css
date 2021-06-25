@@ -1,0 +1,31 @@
+.aboutme h1{
+   font-size: 50px;
+   color: #22d1ee;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.aboutme{
+    
+    text-align: justify;
+    margin: 100px 0px;
+    width: 100%;
+
+}
+.aboutme p{
+    width: 70%;
+    font-size: 24px;
+    padding: 50px 20px 0px 50px;
+    transform: skew(15deg);
+}
+.aboutme article{
+    margin: 0 0 0 10px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    box-shadow: 1px 1px 10px #22d1ee;
+    transform: skew(-15deg);
+    
+}
+#first{
+    margin-left: 250px;
+}

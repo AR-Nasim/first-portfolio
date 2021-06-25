@@ -1,0 +1,32 @@
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #22d1ee;
+    position: absolute;
+    color: #0e153a;
+    box-shadow: 0 2px 5px rgb(110, 107, 107);
+}
+nav img{
+    margin-left: 180px;
+    width: auto;
+    height: 100%;
+}
+nav .nav{
+    float: right;
+    padding-right: 150px;
+    padding-top: 15px;
+    transform: skewX(-20deg);
+}
+nav .nav label{
+    padding-right: 30px;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+nav .nav label:hover{
+    box-shadow: 1px 1px 15px rgb(78, 75, 75);
+    background-color: #22d1ee;
+}
+.home-nav{
+    color: rgb(19, 17, 17);
+}

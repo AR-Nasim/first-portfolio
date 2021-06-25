@@ -1,0 +1,33 @@
+input[name="nav"]{
+    position: absolute;
+    visibility: hidden;
+}
+#about1:checked ~ .main{
+    margin-left: -1536px;
+    margin-top: 0;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+#about2:checked ~ .main{
+    margin-left: -3072px;
+    margin-top: 0;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+#about3:checked ~ .main{
+    margin-top: -750px;
+    margin-left: -1536px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+#about4:checked ~ .main{
+    margin: 0px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+#about5:checked ~ .main{
+    margin-left: -1536px;
+    margin-top: -1500px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
